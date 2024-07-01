@@ -53,6 +53,7 @@ Before running the application, make sure you have the following installed:
 
 
    git clone https://github.com/Navii02/todo-list.git
+   
    cd todo-app
 2. Install dependencies:
 npm install
@@ -70,7 +71,7 @@ yarn start
 
 Open http://localhost:3000 in your browser to view the application.
 
-Usage
+## Usage
 
 
 # Adding Tasks
