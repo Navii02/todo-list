@@ -27,11 +27,8 @@ A simple To-Do List application built with React and styled using Material-UI. A
 
 This project is a To-Do List application built with React and styled using Material-UI. It provides basic task management functionalities where users can add, mark as complete, delete tasks, and view task details including timestamps for when tasks were added and completed.
 
-## Demo
 
-[Live Demo](https://your-todo-app-demo-url.com)
 
-![Demo GIF](./public/todo-app-demo.gif)
 
 ## Features
 
@@ -54,21 +51,19 @@ Before running the application, make sure you have the following installed:
 
 1. Clone the repository:
 
-   ```bash
-   git clone <repository-url>
-   cd todo-app
-Install dependencies:
 
-bash
-Copy code
+   git clone https://github.com/Navii02/todo-list.git
+   cd todo-app
+2. Install dependencies:
 npm install
-# or
+ or
 yarn install
-Running the Application
+
+3. Running the Application
+
 Start the development server:
 
-bash
-Copy code
+
 npm start
  or
 yarn start
@@ -76,21 +71,24 @@ yarn start
 Open http://localhost:3000 in your browser to view the application.
 
 Usage
-**Adding Tasks**
+
+
+# Adding Tasks
 To add a new task:
 
 Enter the task description in the input field labeled "Add a new task".
 Click the "Add" button to add the task to the list.
 
-**Marking Tasks as Complete**
+# Marking Tasks as Complete
 To mark a task as complete:
 
 Click on the checkbox next to the task. Completed tasks will display a green check icon.
-**Deleting Tasks**
+# Deleting Tasks
 To delete a task:
 
 Click on the trash can icon next to the task. The task will be permanently removed from the list.
-Viewing Task Details
+## Viewing Task Details
+
 Each task displays additional details:
 
 Added: Shows the date and time when the task was added.
@@ -102,7 +100,7 @@ JavaScript (ES6+)
 Contributing
 Contributions are welcome! If you have suggestions for improvements or would like to add new features, please follow these steps:
 
-Fork the repository.
+# Fork the repository.
 Create a new branch (git checkout -b feature-name).
 Make your changes.
 Commit your changes (git commit -am 'Add new feature').
@@ -110,5 +108,5 @@ Push to the branch (git push origin feature-name).
 Create a new Pull Request.
 For major changes, please open an issue first to discuss what you would like to change.
 
-**License**
+##  License
 This project is licensed under the MIT License. See the LICENSE file for details.
