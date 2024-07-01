@@ -1,0 +1,27 @@
+/* src/TodoItem.css */
+.list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .completed {
+    text-decoration: line-through;
+    background-color: #d4edda;
+    color: #155724;
+  }
+  
+  .list-group-item button {
+    margin-left: 5px;
+  }
+  
+  .text-muted, .text-success {
+    font-size: 0.8em;
+  }
+  
+  .list-group-item .MuiListItemText-root {
+    white-space: normal;
+  }
+  
